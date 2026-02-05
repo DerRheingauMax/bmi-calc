@@ -144,3 +144,7 @@ def calc_bmi():
 if __name__ == "__main__":
     while True:
         calc_bmi()
+        
+        answer = input("Zum Verlassen geben Sie e ein.\nFür neue Berechnungen drücken Sie Eingabe\n")
+        if answer == "e":
+            break
